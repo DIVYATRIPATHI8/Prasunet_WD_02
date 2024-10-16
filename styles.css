@@ -1,0 +1,95 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+#home {
+    background-color: #54afe1;
+}
+
+
+#about {
+    background-color: #54afe1;
+    
+}
+
+#services {
+    background-color: #54afe1;
+}
+
+#contact {
+    background-color: #54afe1;
+}
+
+/* Navigation Menu Styling */
+nav { 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:black;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 20px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Change font color on hover */
+}
+
+/* Style when scrolling */
+nav.scrolled {
+    background-color: #333; /* Dark background when scrolled */
+}
+
+nav.scrolled ul li a {
+    color: #fff;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #250202;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 12px;
+    height: auto;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #ff6347;
+}
+
